@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+
+
+    <script src="js/tooltipglossary.js"></script>
+
+
+
+    <script src="js/lightswitch.js"></script>
+    <link id="generalcss" href="css/light.css" rel="stylesheet" type="text/css" />
+    <title>Imperium</title>
+    <link rel="icon" href="https://i.imgur.com/aYr9UGD.jpg">
+</head>
+
+<body>
+
+
+    <nav id="mynavbar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <!-- <a class="navbar-brand" href="#">Seedless Bloom</a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="imperium.html">Imperium</a></li>
+                    <li><a href="planescape.html">Planescape</a></li>
+                    <li class="active"><a href="#">Shardscape</a></li>
+                    <li><a href="character.html">Character</a></li>
+                    
+                    <!-- <li><a href="#" onclick="lightswitch()">Invert Colors</a></li> -->
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="row">
+        <div class="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+          <br>
+          <br>
+          <br>
+          <br>
+            <img src="https://i.imgur.com/RzWnnFj.jpg" class="img-responsive center-block" style="max-width:60%;">
+            <br>
+
+
+
+            <h2 class="text-left">The Shardscape</h2>
+            
+            <br>
+            <p class="text-center">
+                Any sufficiently advanced technology is indistinguishable from magic.
+                <br>
+                    -Third Law, Arthur C. Clarke
+            </p>
+            <p class="text-center">
+               Any sufficiently advanced magic is indistinguishable from technology.
+               <br>
+                  -Corollary for the above, anonymous
+
+            </p>
+
+            <br>
+            <p class="text-left">Much like the <c>Imperium</c> itself, the origins of the <c>Shardscape</c> is unknown. Suffice to say that there are certain crystals found in throughout planes with peculiar telepathic properties. These crystals are usually found as a single, large piece which when carved with care splits into multiple shards, each connected in the same thought network called a shardnet. The sentients holding these shards can then focus and communicate through them telepathically regardless of distance or planar location. </p>
+            <br>
+            <p class="text-left">Over time, <c>Planars</c> have found methods of adding individual shards to shardnets and permanently bridging shardnets. Eventually, a large interplanar web called the <c>Shardscape</c> was formed. The existence of the <c>Imperium</c> is wholly dependent on the <c>Shardscape</c>, as communication would otherwise not be possible. </p>
+            
+            
+<br>
+            <h2 class="text-left">Cryptomancy 101</h2>
+            <br>
+            <p class="text-left">On a particular shardnet, thoughts resonate as echoes for quite some time. The larger the shardnet, the more the echoes last. Everyone can hear these echoes. This is a problem if an enemy gets ahold of a shard in a particular network: he can listen in on what everyone is thinking. </p>
+            <br>
+            <img src="https://i.imgur.com/geUsGj6.jpg" class="img-responsive center-block">
+            <br>
+            <p class="text-left">Alice, Bob, and Chuck are part of the same shardnet. If Alice holds her shard, closes her eyes, and thinks “Hello Bob,” that message will echo throughout the shardnet in clear-text (that is, language that is perfectly legible to anyone and everyone). This means that anyone with one of the shards will be able to intercept the message. Though Alice intended her message to be received by Bob, Chuck was also able to receive the message. That might be OK if the message is “Hello Bob.” However, if the message is “Watch out, Chuck is working for the enemy,” this might be problematic.</p>
+            <br>
+
+            <img src="https://i.imgur.com/jYCdaSW.jpg" class="img-responsive center-block">
+<br>
+
+            <p class="text-left">Enter symmetric encryption. Luckily, Alice and Bob previously agreed on a shared keyphrase… a string of words that encrypt the clear-text into cipher-text (that is, unintelligible nonsense). The cipher-text can only be decrypted (transformed back into clear-text) by someone who knows this keyphrase. Alice raises her hand to her shard and thinks the keyphrase. She then lowers her hand, and thinks the message “Watch out, Chuck is working for the enemy.” Bob, who knows the keyphrase, receives the message loud and clear. Chuck, however, only receives confusing cipher-text. He now knows that Alice and Bob are keeping a secret from him, but does not know what that secret is.</p>
+            <br>
+            <p class="text-left">What if Alice and Bob forgot to agree on a key before Chuck showed up? They certainly can’t do it while he’s in on the shardnet... he’ll overhear what key they agree on and then be able to decrypt their secret messages to one another. Now what? Enter asymmetric cryptography, also known as public-key cryptography.</p>
+            <br>
+            <p class="text-left">In asymmetric cryptography, a key is split into two parts: a public key, intended to be advertised to everybody, and a private key, meant to be kept secret. Unlike symmetric cryptography, where a single key is used for both encryption and decryption, and is known by both sender and receiver, asymmetric cryptography is a little more interesting. A message that is encrypted with a public key can only be decrypted by the associated private key. Conversely, a message that is encrypted with a private key can only be decrypted by the associated public key.</p>
+            <br>
+            <p class="text-left">It sounds confusing at first, but it’s pretty simple. Imagine a room with all three actors. In our scenario, Bob is wearing a T-shirt that has his public key on it. That means that both Alice and Chuck can see it, but it’s not a big deal. Why? Because when Alice encrypts her message with Bob’s public key, the only thing that can decrypt the message is Bob’s private key, which he isn’t sharing with anybody (not even Alice). Now Alice can send messages to Bob securely without Chuck intercepting the message, but we still have a problem: Alice forgot to wear her public key T-shirt! She can securely communicate to Bob, but how is Bob supposed to securely communicate back? If he uses his public key to encrypt the message, only he will be able to decrypt it, and not Alice. That won’t work. If he uses his private key to encrypt the message, then anyone who knows his public key (which is written on his T-shirt) can decrypt it, which means Chuck will be able to intercept the message. That won’t work either.</p>
+            <br>
+            <p class="text-left">Not a problem: Alice versed in cryptomancy. Her message to Bob was “Let’s bring it back to symmetric cryptography: our key will be the word ‘elephant,’” and she encrypted this message using Bob’s public key, so only he could decrypt the message with his private key. Bob gets the message loud and clear, and then sends back the message “Nice work, Chuck will never know,” encrypted with the key “elephant.” For the rest of the conversation, both Alice and Bob use “elephant” as their key, unbeknown to Chuck.</p>
+            
+
+
+
+<br>
+            <h2 class="text-left">True Names and Soul Keys</h2>
+            <br>
+            <p class="text-left">This is the most commonly used asymmetric encryption pattern in the <c>Imperium</c>. All sentients have a common name which they share freely. In addition to this, they have <c>True Names</c>: names they only share with their closest friends, family, and allies. They also have a <c>Soul Key</c>, a word so complex and powerful that it literally stops time when it is uttered. Of course, not all sentients know their <c>True Name</c>, or that even such a concept exist. For a <c>Planar</c>, however, it is vital.</p>
+            <br>
+            <p class="text-left">From a cryptomantic perspective, <c>True Names</c> are powerful keyphrases that enable perfect confidentiality: when a message is encrypted with an actor’s <c>True Name</c>, only that actor can decrypt the message with her <c>Soul Key</c>.</p>
+            <br>
+            <p class="text-left"><c>Soul Keys</c> are words that defy logic and nature. Actors don’t exactly know their own <c>Soul Keys</c>: when they evoke them, time stops briefly and all within earshot enter a sudden trance. No one can hear or remember a <c>Soul Key</c> when it is uttered, and no one knows why. What they do know is that they are the only ones capable of decrypting a message encrypted with their <c>True Name</c>, and the mechanism by which this occurs is their <c>Soul Key</c>. Inversely, an actor can also evoke her <c>Soul Key</c> to encrypt a message, which can only be decrypted by those who know her <c>True Name</c>.</p>
+            <br>
+            <p class="text-left">Let’s take a moment to elaborate on the security that the <c>True Name</c> / <c>Soul Key</c> combination provides. If a <c>True Name</c> can decrypt an encrypted message, then the decrypter can be 100% confident that the message originated from the actor who possesses this true name’s corresponding <c>Soul Key</c>. Alternatively, if an actor’s <c>Soul Key</c> can decrypt an encrypted message, then that actor can be 100% confident that the message originated by someone who knows her <c>True Name</c>.</p>
+            <br>
+             <img src="https://i.imgur.com/RLue5cL.jpg" class="img-responsive center-block">
+            <br>
+            <p class="text-left"><c>True Names</c> and <c>Soul Keys</c> are used in many instances, from banking to finding someone in the vastness of the <c>Shardscape</c>.</p>
+            <br>
+
+            <h2 class="text-left">Cryptomancers</h2>
+            <br>
+            <p class="text-left">Naturally, due to the complexity involved in shardnets, a specialized type of mage has appeared. Further, the cryptomancers have developed various spells that work through shardnets, such as: </p>
+            <br>
+
+            <ul>
+            <li><c>Denier</c> - prevents new echoes from forming on a shardnet</li>
+            <li><c>Scry</c> - view the surrounding areas of other shards on the shardnet, as if they were surveillance cameras</li>
+            <li><c>Spike</c> - embeds a magical trap as an echo inside a network, which triggers when decrypted by someone else</li>
+            <li><c>Tracer</c> - discerns the physical locations of other shards in the shardnet</li>
+            <li><c>Warp</c> - transports the caster’s corporeal body through a shardnet</li>
+            </ul>
+            <p class="text-left">There are other spells out there, but a point of note is that cryptomancer spells only work on private shardnets. The <c>Shardscape</c> is too vast for these spells to have any effect, although there are rumors of some powerful <c>Planars</c> who can perform such feats.</p>
+            <br>
+            <p class="text-left">Without going into too much detail, shards, shardnets and the <c>Shardscape</c> have the same functions as our internet would, albeit in a different manner:</p>
+            <br>
+            <ul>
+            <li><c>Search Engines</c> - Certain organizations have banners who shout clear-text echoes with keyphrases for a subject of interest, and one only has to listen and pick them up. Even if one only suspects a keyphrase or is interested in a particular topic(e.g. Tanisian Spice Market), all he has to do is think about it, and he might stumble upon echoes he can decrypt. </li>
+            <li><c>Message boards</c> - People using the same keyphrase such as “Necromancers Composium” on the <c>Shardscape</c> can imprint new echoes and study old ones. </li>
+            <li><c>Servers</c> - Golems serve the function of both calculators and network bridgers</li>
+            <li><c>Microcontrollers</c> - Cryptogears are gears built around a shard, which only activate when a specific passphrase is communicated to it. This, of course, activates a gearwork device, be it a mechanical drill, a chest lock, or a loom set up to perform calculations (difference engine).</li>
+            <li><c>DDoS</c> - Distributed Denial of Service attacks can be performed by overwhelming a golem with requests. Something as innocent as leaving “Will donate all my Mana to whoever answers the following riddle, return answer at Snail Cliff” on a message board can achieve this purpose if Snail Cliff happens to be a golem’s keyphrase.</li>
+            </ul>
+
+            <br>
+
+            <h2 class="text-left">Echomorph</h2>
+            <br>
+            <p class="text-left">Many things can go awry with shard spells. One particular instance is where the <c>Warp</c> spell (allowing corporeal teleportation through shards) fails midway. All of the sudden the caster is trapped within a shardnet or even a single shard. Once it was thought as a terrible fate, as the casters’ consciousness is frozen in transfer, effectively condemning him to oblivion. </p>
+            <br>
+            <p class="text-left">However, various mages experimented with such exceptional situations, and the result was astounding: immortality. Such <c>Echomorphs</c> could be transferred through shardnets, even the <c>Shardscape</c>, and copies could be made into more specialized arcane items (named Phylacteries), which then allow the transfer into bodies. These copies could later be reintegrated. This allowed for uploading, backups, downloads, and forking(multiple instances of a single <c>Echomorph</c> in the physical world). Unless all copies of a <c>Planar</c> are destroyed, he will exist somehow, somewhere, and can be downloaded into a body. Indeed, even multiple instances of the same <c>Planar</c> can run around at the same time.</p>
+
+
+            <br>
+            <h2 class="text-left">Ethics, Morality, Theology</h2>
+            <br>
+            <p class="text-left">Naturally, there are many aspects to <c>Echomorphs</c> which are problematic from a philosophical point of view. The nature of the soul is widely discussed: do echoes have one? Do different forks share a soul? It is widely known that souls after death travel to other planes, ones specific with their beliefes; to <c>Planar</c> scholars, those planes are reachable. Residents of such planes profess ignorance of the matter, but whether this is actual ignorance, dissimulation, or a hidden agreement with the most powerful of planars, it is unknown.</p>
+            <br>
+            <p>Another is the matter of property and independence: are forks subservient to a "primary echo", or their own entity? If a fork commits a crime, are all the other forks or the originating <c>Echomorph</c> guilty as well? Most jurisdictions take a practical approach to the matter, both in judging situations and in forking itself, though it varies from individual to individual. Some <c>Planars</c> avoid forking altogether, fearing rogue forks turning against them.</p>
+            <br>
+            <p class="text-left">Even more curious are suggestions that some <c>Echomorphs</c> are conscious, and moving through the <c>Shardscape</c>. Saged cryptomancers scoff at such notions: echoes are just information bouncing around the <c>Shardscape</c>. But if this information could organize itself in such a manner as to resemble sentience, what sort of rights would they have?</p>
+            <br>
+           
+            <h2 class="text-left">Nota bene</h2>
+            <br>
+            <p class="text-left">This will not be a game of heavy computer science. All of the above are used as flavorings, and as such there is no need to bother with details, such as what keyphrases are used, or how a DDoS is implemented. It is sufficient to know that the <c>Imperium</c> is in such an advanced state that it equals and even surpasses our real world. As such, anything that might be achieved thorough the technology of the modern day or better, can be achieved in-game.</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+           
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
